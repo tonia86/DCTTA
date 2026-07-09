@@ -3,7 +3,7 @@
 This repository provides the official implementation of the paper:
 
 **Degradation-Consistent Test-Time Adaptation for All-in-One Image Restoration**  
-Accepted to **CVPR 2026**.
+Accepted to **CVPR 2026**🎉.
 
 ---
 
@@ -12,6 +12,9 @@ Accepted to **CVPR 2026**.
 This project focuses on test-time adaptation for all-in-one image restoration.  
 Given a pre-trained all-in-one restoration model, our method performs degradation-consistent adaptation on test data and then automatically evaluates the adapted model.
 
+The overall framework of our method is illustrated below:
+
+![Framework](https://github.com/tonia86/DOD/blob/main/image/frame.jpg)  
 ---
 
 ## Environment Setup
