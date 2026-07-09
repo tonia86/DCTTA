@@ -1,0 +1,706 @@
+2026-07-09 17:59:24,884 - INFO - 训练集大小: 100
+2026-07-09 17:59:26,066 - INFO - freezing params: patch_embed.proj.weight
+2026-07-09 17:59:26,066 - INFO - train params: prompt1.prompt_param
+2026-07-09 17:59:26,066 - INFO - train params: prompt1.linear_layer.weight
+2026-07-09 17:59:26,066 - INFO - train params: prompt1.linear_layer.bias
+2026-07-09 17:59:26,066 - INFO - train params: prompt1.conv3x3.weight
+2026-07-09 17:59:26,066 - INFO - train params: prompt2.prompt_param
+2026-07-09 17:59:26,066 - INFO - train params: prompt2.linear_layer.weight
+2026-07-09 17:59:26,067 - INFO - train params: prompt2.linear_layer.bias
+2026-07-09 17:59:26,067 - INFO - train params: prompt2.conv3x3.weight
+2026-07-09 17:59:26,067 - INFO - train params: prompt3.prompt_param
+2026-07-09 17:59:26,067 - INFO - train params: prompt3.linear_layer.weight
+2026-07-09 17:59:26,067 - INFO - train params: prompt3.linear_layer.bias
+2026-07-09 17:59:26,067 - INFO - train params: prompt3.conv3x3.weight
+2026-07-09 17:59:26,067 - INFO - freezing params: chnl_reduce1.weight
+2026-07-09 17:59:26,067 - INFO - freezing params: chnl_reduce2.weight
+2026-07-09 17:59:26,067 - INFO - freezing params: chnl_reduce3.weight
+2026-07-09 17:59:26,067 - INFO - freezing params: reduce_noise_channel_1.weight
+2026-07-09 17:59:26,067 - INFO - train params: encoder_level1.0.norm1.body.weight
+2026-07-09 17:59:26,067 - INFO - train params: encoder_level1.0.norm1.body.bias
+2026-07-09 17:59:26,067 - INFO - train params: encoder_level1.0.attn.temperature
+2026-07-09 17:59:26,067 - INFO - train params: encoder_level1.0.attn.qkv.weight
+2026-07-09 17:59:26,067 - INFO - train params: encoder_level1.0.attn.qkv_dwconv.weight
+2026-07-09 17:59:26,067 - INFO - train params: encoder_level1.0.attn.project_out.weight
+2026-07-09 17:59:26,068 - INFO - train params: encoder_level1.0.norm2.body.weight
+2026-07-09 17:59:26,068 - INFO - train params: encoder_level1.0.norm2.body.bias
+2026-07-09 17:59:26,068 - INFO - train params: encoder_level1.0.ffn.project_in.weight
+2026-07-09 17:59:26,068 - INFO - train params: encoder_level1.0.ffn.dwconv.weight
+2026-07-09 17:59:26,068 - INFO - train params: encoder_level1.0.ffn.project_out.weight
+2026-07-09 17:59:26,068 - INFO - train params: encoder_level1.1.norm1.body.weight
+2026-07-09 17:59:26,068 - INFO - train params: encoder_level1.1.norm1.body.bias
+2026-07-09 17:59:26,068 - INFO - train params: encoder_level1.1.attn.temperature
+2026-07-09 17:59:26,068 - INFO - train params: encoder_level1.1.attn.qkv.weight
+2026-07-09 17:59:26,068 - INFO - train params: encoder_level1.1.attn.qkv_dwconv.weight
+2026-07-09 17:59:26,068 - INFO - train params: encoder_level1.1.attn.project_out.weight
+2026-07-09 17:59:26,068 - INFO - train params: encoder_level1.1.norm2.body.weight
+2026-07-09 17:59:26,068 - INFO - train params: encoder_level1.1.norm2.body.bias
+2026-07-09 17:59:26,068 - INFO - train params: encoder_level1.1.ffn.project_in.weight
+2026-07-09 17:59:26,068 - INFO - train params: encoder_level1.1.ffn.dwconv.weight
+2026-07-09 17:59:26,068 - INFO - train params: encoder_level1.1.ffn.project_out.weight
+2026-07-09 17:59:26,069 - INFO - train params: encoder_level1.2.norm1.body.weight
+2026-07-09 17:59:26,069 - INFO - train params: encoder_level1.2.norm1.body.bias
+2026-07-09 17:59:26,069 - INFO - train params: encoder_level1.2.attn.temperature
+2026-07-09 17:59:26,069 - INFO - train params: encoder_level1.2.attn.qkv.weight
+2026-07-09 17:59:26,069 - INFO - train params: encoder_level1.2.attn.qkv_dwconv.weight
+2026-07-09 17:59:26,069 - INFO - train params: encoder_level1.2.attn.project_out.weight
+2026-07-09 17:59:26,069 - INFO - train params: encoder_level1.2.norm2.body.weight
+2026-07-09 17:59:26,069 - INFO - train params: encoder_level1.2.norm2.body.bias
+2026-07-09 17:59:26,069 - INFO - train params: encoder_level1.2.ffn.project_in.weight
+2026-07-09 17:59:26,069 - INFO - train params: encoder_level1.2.ffn.dwconv.weight
+2026-07-09 17:59:26,069 - INFO - train params: encoder_level1.2.ffn.project_out.weight
+2026-07-09 17:59:26,069 - INFO - train params: encoder_level1.3.norm1.body.weight
+2026-07-09 17:59:26,069 - INFO - train params: encoder_level1.3.norm1.body.bias
+2026-07-09 17:59:26,069 - INFO - train params: encoder_level1.3.attn.temperature
+2026-07-09 17:59:26,069 - INFO - train params: encoder_level1.3.attn.qkv.weight
+2026-07-09 17:59:26,069 - INFO - train params: encoder_level1.3.attn.qkv_dwconv.weight
+2026-07-09 17:59:26,070 - INFO - train params: encoder_level1.3.attn.project_out.weight
+2026-07-09 17:59:26,070 - INFO - train params: encoder_level1.3.norm2.body.weight
+2026-07-09 17:59:26,070 - INFO - train params: encoder_level1.3.norm2.body.bias
+2026-07-09 17:59:26,070 - INFO - train params: encoder_level1.3.ffn.project_in.weight
+2026-07-09 17:59:26,070 - INFO - train params: encoder_level1.3.ffn.dwconv.weight
+2026-07-09 17:59:26,070 - INFO - train params: encoder_level1.3.ffn.project_out.weight
+2026-07-09 17:59:26,070 - INFO - freezing params: down1_2.body.0.weight
+2026-07-09 17:59:26,070 - INFO - freezing params: reduce_noise_channel_2.weight
+2026-07-09 17:59:26,070 - INFO - train params: encoder_level2.0.norm1.body.weight
+2026-07-09 17:59:26,070 - INFO - train params: encoder_level2.0.norm1.body.bias
+2026-07-09 17:59:26,070 - INFO - train params: encoder_level2.0.attn.temperature
+2026-07-09 17:59:26,070 - INFO - train params: encoder_level2.0.attn.qkv.weight
+2026-07-09 17:59:26,070 - INFO - train params: encoder_level2.0.attn.qkv_dwconv.weight
+2026-07-09 17:59:26,070 - INFO - train params: encoder_level2.0.attn.project_out.weight
+2026-07-09 17:59:26,070 - INFO - train params: encoder_level2.0.norm2.body.weight
+2026-07-09 17:59:26,070 - INFO - train params: encoder_level2.0.norm2.body.bias
+2026-07-09 17:59:26,071 - INFO - train params: encoder_level2.0.ffn.project_in.weight
+2026-07-09 17:59:26,071 - INFO - train params: encoder_level2.0.ffn.dwconv.weight
+2026-07-09 17:59:26,071 - INFO - train params: encoder_level2.0.ffn.project_out.weight
+2026-07-09 17:59:26,071 - INFO - train params: encoder_level2.1.norm1.body.weight
+2026-07-09 17:59:26,071 - INFO - train params: encoder_level2.1.norm1.body.bias
+2026-07-09 17:59:26,071 - INFO - train params: encoder_level2.1.attn.temperature
+2026-07-09 17:59:26,071 - INFO - train params: encoder_level2.1.attn.qkv.weight
+2026-07-09 17:59:26,071 - INFO - train params: encoder_level2.1.attn.qkv_dwconv.weight
+2026-07-09 17:59:26,071 - INFO - train params: encoder_level2.1.attn.project_out.weight
+2026-07-09 17:59:26,071 - INFO - train params: encoder_level2.1.norm2.body.weight
+2026-07-09 17:59:26,071 - INFO - train params: encoder_level2.1.norm2.body.bias
+2026-07-09 17:59:26,071 - INFO - train params: encoder_level2.1.ffn.project_in.weight
+2026-07-09 17:59:26,071 - INFO - train params: encoder_level2.1.ffn.dwconv.weight
+2026-07-09 17:59:26,071 - INFO - train params: encoder_level2.1.ffn.project_out.weight
+2026-07-09 17:59:26,071 - INFO - train params: encoder_level2.2.norm1.body.weight
+2026-07-09 17:59:26,072 - INFO - train params: encoder_level2.2.norm1.body.bias
+2026-07-09 17:59:26,072 - INFO - train params: encoder_level2.2.attn.temperature
+2026-07-09 17:59:26,072 - INFO - train params: encoder_level2.2.attn.qkv.weight
+2026-07-09 17:59:26,072 - INFO - train params: encoder_level2.2.attn.qkv_dwconv.weight
+2026-07-09 17:59:26,072 - INFO - train params: encoder_level2.2.attn.project_out.weight
+2026-07-09 17:59:26,072 - INFO - train params: encoder_level2.2.norm2.body.weight
+2026-07-09 17:59:26,072 - INFO - train params: encoder_level2.2.norm2.body.bias
+2026-07-09 17:59:26,072 - INFO - train params: encoder_level2.2.ffn.project_in.weight
+2026-07-09 17:59:26,072 - INFO - train params: encoder_level2.2.ffn.dwconv.weight
+2026-07-09 17:59:26,072 - INFO - train params: encoder_level2.2.ffn.project_out.weight
+2026-07-09 17:59:26,072 - INFO - train params: encoder_level2.3.norm1.body.weight
+2026-07-09 17:59:26,072 - INFO - train params: encoder_level2.3.norm1.body.bias
+2026-07-09 17:59:26,072 - INFO - train params: encoder_level2.3.attn.temperature
+2026-07-09 17:59:26,072 - INFO - train params: encoder_level2.3.attn.qkv.weight
+2026-07-09 17:59:26,072 - INFO - train params: encoder_level2.3.attn.qkv_dwconv.weight
+2026-07-09 17:59:26,072 - INFO - train params: encoder_level2.3.attn.project_out.weight
+2026-07-09 17:59:26,073 - INFO - train params: encoder_level2.3.norm2.body.weight
+2026-07-09 17:59:26,073 - INFO - train params: encoder_level2.3.norm2.body.bias
+2026-07-09 17:59:26,073 - INFO - train params: encoder_level2.3.ffn.project_in.weight
+2026-07-09 17:59:26,073 - INFO - train params: encoder_level2.3.ffn.dwconv.weight
+2026-07-09 17:59:26,073 - INFO - train params: encoder_level2.3.ffn.project_out.weight
+2026-07-09 17:59:26,073 - INFO - train params: encoder_level2.4.norm1.body.weight
+2026-07-09 17:59:26,073 - INFO - train params: encoder_level2.4.norm1.body.bias
+2026-07-09 17:59:26,073 - INFO - train params: encoder_level2.4.attn.temperature
+2026-07-09 17:59:26,073 - INFO - train params: encoder_level2.4.attn.qkv.weight
+2026-07-09 17:59:26,073 - INFO - train params: encoder_level2.4.attn.qkv_dwconv.weight
+2026-07-09 17:59:26,073 - INFO - train params: encoder_level2.4.attn.project_out.weight
+2026-07-09 17:59:26,073 - INFO - train params: encoder_level2.4.norm2.body.weight
+2026-07-09 17:59:26,073 - INFO - train params: encoder_level2.4.norm2.body.bias
+2026-07-09 17:59:26,073 - INFO - train params: encoder_level2.4.ffn.project_in.weight
+2026-07-09 17:59:26,073 - INFO - train params: encoder_level2.4.ffn.dwconv.weight
+2026-07-09 17:59:26,073 - INFO - train params: encoder_level2.4.ffn.project_out.weight
+2026-07-09 17:59:26,074 - INFO - train params: encoder_level2.5.norm1.body.weight
+2026-07-09 17:59:26,074 - INFO - train params: encoder_level2.5.norm1.body.bias
+2026-07-09 17:59:26,074 - INFO - train params: encoder_level2.5.attn.temperature
+2026-07-09 17:59:26,074 - INFO - train params: encoder_level2.5.attn.qkv.weight
+2026-07-09 17:59:26,074 - INFO - train params: encoder_level2.5.attn.qkv_dwconv.weight
+2026-07-09 17:59:26,074 - INFO - train params: encoder_level2.5.attn.project_out.weight
+2026-07-09 17:59:26,074 - INFO - train params: encoder_level2.5.norm2.body.weight
+2026-07-09 17:59:26,074 - INFO - train params: encoder_level2.5.norm2.body.bias
+2026-07-09 17:59:26,074 - INFO - train params: encoder_level2.5.ffn.project_in.weight
+2026-07-09 17:59:26,074 - INFO - train params: encoder_level2.5.ffn.dwconv.weight
+2026-07-09 17:59:26,074 - INFO - train params: encoder_level2.5.ffn.project_out.weight
+2026-07-09 17:59:26,074 - INFO - freezing params: down2_3.body.0.weight
+2026-07-09 17:59:26,074 - INFO - freezing params: reduce_noise_channel_3.weight
+2026-07-09 17:59:26,074 - INFO - train params: encoder_level3.0.norm1.body.weight
+2026-07-09 17:59:26,074 - INFO - train params: encoder_level3.0.norm1.body.bias
+2026-07-09 17:59:26,074 - INFO - train params: encoder_level3.0.attn.temperature
+2026-07-09 17:59:26,075 - INFO - train params: encoder_level3.0.attn.qkv.weight
+2026-07-09 17:59:26,075 - INFO - train params: encoder_level3.0.attn.qkv_dwconv.weight
+2026-07-09 17:59:26,075 - INFO - train params: encoder_level3.0.attn.project_out.weight
+2026-07-09 17:59:26,075 - INFO - train params: encoder_level3.0.norm2.body.weight
+2026-07-09 17:59:26,075 - INFO - train params: encoder_level3.0.norm2.body.bias
+2026-07-09 17:59:26,075 - INFO - train params: encoder_level3.0.ffn.project_in.weight
+2026-07-09 17:59:26,075 - INFO - train params: encoder_level3.0.ffn.dwconv.weight
+2026-07-09 17:59:26,075 - INFO - train params: encoder_level3.0.ffn.project_out.weight
+2026-07-09 17:59:26,075 - INFO - train params: encoder_level3.1.norm1.body.weight
+2026-07-09 17:59:26,075 - INFO - train params: encoder_level3.1.norm1.body.bias
+2026-07-09 17:59:26,075 - INFO - train params: encoder_level3.1.attn.temperature
+2026-07-09 17:59:26,075 - INFO - train params: encoder_level3.1.attn.qkv.weight
+2026-07-09 17:59:26,075 - INFO - train params: encoder_level3.1.attn.qkv_dwconv.weight
+2026-07-09 17:59:26,075 - INFO - train params: encoder_level3.1.attn.project_out.weight
+2026-07-09 17:59:26,075 - INFO - train params: encoder_level3.1.norm2.body.weight
+2026-07-09 17:59:26,075 - INFO - train params: encoder_level3.1.norm2.body.bias
+2026-07-09 17:59:26,076 - INFO - train params: encoder_level3.1.ffn.project_in.weight
+2026-07-09 17:59:26,076 - INFO - train params: encoder_level3.1.ffn.dwconv.weight
+2026-07-09 17:59:26,076 - INFO - train params: encoder_level3.1.ffn.project_out.weight
+2026-07-09 17:59:26,076 - INFO - train params: encoder_level3.2.norm1.body.weight
+2026-07-09 17:59:26,076 - INFO - train params: encoder_level3.2.norm1.body.bias
+2026-07-09 17:59:26,076 - INFO - train params: encoder_level3.2.attn.temperature
+2026-07-09 17:59:26,076 - INFO - train params: encoder_level3.2.attn.qkv.weight
+2026-07-09 17:59:26,076 - INFO - train params: encoder_level3.2.attn.qkv_dwconv.weight
+2026-07-09 17:59:26,076 - INFO - train params: encoder_level3.2.attn.project_out.weight
+2026-07-09 17:59:26,076 - INFO - train params: encoder_level3.2.norm2.body.weight
+2026-07-09 17:59:26,076 - INFO - train params: encoder_level3.2.norm2.body.bias
+2026-07-09 17:59:26,076 - INFO - train params: encoder_level3.2.ffn.project_in.weight
+2026-07-09 17:59:26,076 - INFO - train params: encoder_level3.2.ffn.dwconv.weight
+2026-07-09 17:59:26,076 - INFO - train params: encoder_level3.2.ffn.project_out.weight
+2026-07-09 17:59:26,076 - INFO - train params: encoder_level3.3.norm1.body.weight
+2026-07-09 17:59:26,076 - INFO - train params: encoder_level3.3.norm1.body.bias
+2026-07-09 17:59:26,077 - INFO - train params: encoder_level3.3.attn.temperature
+2026-07-09 17:59:26,077 - INFO - train params: encoder_level3.3.attn.qkv.weight
+2026-07-09 17:59:26,077 - INFO - train params: encoder_level3.3.attn.qkv_dwconv.weight
+2026-07-09 17:59:26,077 - INFO - train params: encoder_level3.3.attn.project_out.weight
+2026-07-09 17:59:26,077 - INFO - train params: encoder_level3.3.norm2.body.weight
+2026-07-09 17:59:26,077 - INFO - train params: encoder_level3.3.norm2.body.bias
+2026-07-09 17:59:26,077 - INFO - train params: encoder_level3.3.ffn.project_in.weight
+2026-07-09 17:59:26,077 - INFO - train params: encoder_level3.3.ffn.dwconv.weight
+2026-07-09 17:59:26,077 - INFO - train params: encoder_level3.3.ffn.project_out.weight
+2026-07-09 17:59:26,077 - INFO - train params: encoder_level3.4.norm1.body.weight
+2026-07-09 17:59:26,077 - INFO - train params: encoder_level3.4.norm1.body.bias
+2026-07-09 17:59:26,077 - INFO - train params: encoder_level3.4.attn.temperature
+2026-07-09 17:59:26,077 - INFO - train params: encoder_level3.4.attn.qkv.weight
+2026-07-09 17:59:26,077 - INFO - train params: encoder_level3.4.attn.qkv_dwconv.weight
+2026-07-09 17:59:26,077 - INFO - train params: encoder_level3.4.attn.project_out.weight
+2026-07-09 17:59:26,077 - INFO - train params: encoder_level3.4.norm2.body.weight
+2026-07-09 17:59:26,078 - INFO - train params: encoder_level3.4.norm2.body.bias
+2026-07-09 17:59:26,078 - INFO - train params: encoder_level3.4.ffn.project_in.weight
+2026-07-09 17:59:26,078 - INFO - train params: encoder_level3.4.ffn.dwconv.weight
+2026-07-09 17:59:26,078 - INFO - train params: encoder_level3.4.ffn.project_out.weight
+2026-07-09 17:59:26,078 - INFO - train params: encoder_level3.5.norm1.body.weight
+2026-07-09 17:59:26,078 - INFO - train params: encoder_level3.5.norm1.body.bias
+2026-07-09 17:59:26,078 - INFO - train params: encoder_level3.5.attn.temperature
+2026-07-09 17:59:26,078 - INFO - train params: encoder_level3.5.attn.qkv.weight
+2026-07-09 17:59:26,078 - INFO - train params: encoder_level3.5.attn.qkv_dwconv.weight
+2026-07-09 17:59:26,078 - INFO - train params: encoder_level3.5.attn.project_out.weight
+2026-07-09 17:59:26,078 - INFO - train params: encoder_level3.5.norm2.body.weight
+2026-07-09 17:59:26,078 - INFO - train params: encoder_level3.5.norm2.body.bias
+2026-07-09 17:59:26,078 - INFO - train params: encoder_level3.5.ffn.project_in.weight
+2026-07-09 17:59:26,078 - INFO - train params: encoder_level3.5.ffn.dwconv.weight
+2026-07-09 17:59:26,078 - INFO - train params: encoder_level3.5.ffn.project_out.weight
+2026-07-09 17:59:26,078 - INFO - freezing params: down3_4.body.0.weight
+2026-07-09 17:59:26,079 - INFO - freezing params: latent.0.norm1.body.weight
+2026-07-09 17:59:26,079 - INFO - freezing params: latent.0.norm1.body.bias
+2026-07-09 17:59:26,079 - INFO - freezing params: latent.0.attn.temperature
+2026-07-09 17:59:26,079 - INFO - freezing params: latent.0.attn.qkv.weight
+2026-07-09 17:59:26,079 - INFO - freezing params: latent.0.attn.qkv_dwconv.weight
+2026-07-09 17:59:26,079 - INFO - freezing params: latent.0.attn.project_out.weight
+2026-07-09 17:59:26,079 - INFO - freezing params: latent.0.norm2.body.weight
+2026-07-09 17:59:26,079 - INFO - freezing params: latent.0.norm2.body.bias
+2026-07-09 17:59:26,079 - INFO - freezing params: latent.0.ffn.project_in.weight
+2026-07-09 17:59:26,079 - INFO - freezing params: latent.0.ffn.dwconv.weight
+2026-07-09 17:59:26,079 - INFO - freezing params: latent.0.ffn.project_out.weight
+2026-07-09 17:59:26,079 - INFO - freezing params: latent.1.norm1.body.weight
+2026-07-09 17:59:26,079 - INFO - freezing params: latent.1.norm1.body.bias
+2026-07-09 17:59:26,079 - INFO - freezing params: latent.1.attn.temperature
+2026-07-09 17:59:26,080 - INFO - freezing params: latent.1.attn.qkv.weight
+2026-07-09 17:59:26,080 - INFO - freezing params: latent.1.attn.qkv_dwconv.weight
+2026-07-09 17:59:26,080 - INFO - freezing params: latent.1.attn.project_out.weight
+2026-07-09 17:59:26,080 - INFO - freezing params: latent.1.norm2.body.weight
+2026-07-09 17:59:26,080 - INFO - freezing params: latent.1.norm2.body.bias
+2026-07-09 17:59:26,080 - INFO - freezing params: latent.1.ffn.project_in.weight
+2026-07-09 17:59:26,080 - INFO - freezing params: latent.1.ffn.dwconv.weight
+2026-07-09 17:59:26,080 - INFO - freezing params: latent.1.ffn.project_out.weight
+2026-07-09 17:59:26,080 - INFO - freezing params: latent.2.norm1.body.weight
+2026-07-09 17:59:26,080 - INFO - freezing params: latent.2.norm1.body.bias
+2026-07-09 17:59:26,080 - INFO - freezing params: latent.2.attn.temperature
+2026-07-09 17:59:26,080 - INFO - freezing params: latent.2.attn.qkv.weight
+2026-07-09 17:59:26,080 - INFO - freezing params: latent.2.attn.qkv_dwconv.weight
+2026-07-09 17:59:26,080 - INFO - freezing params: latent.2.attn.project_out.weight
+2026-07-09 17:59:26,081 - INFO - freezing params: latent.2.norm2.body.weight
+2026-07-09 17:59:26,081 - INFO - freezing params: latent.2.norm2.body.bias
+2026-07-09 17:59:26,081 - INFO - freezing params: latent.2.ffn.project_in.weight
+2026-07-09 17:59:26,081 - INFO - freezing params: latent.2.ffn.dwconv.weight
+2026-07-09 17:59:26,081 - INFO - freezing params: latent.2.ffn.project_out.weight
+2026-07-09 17:59:26,081 - INFO - freezing params: latent.3.norm1.body.weight
+2026-07-09 17:59:26,081 - INFO - freezing params: latent.3.norm1.body.bias
+2026-07-09 17:59:26,081 - INFO - freezing params: latent.3.attn.temperature
+2026-07-09 17:59:26,081 - INFO - freezing params: latent.3.attn.qkv.weight
+2026-07-09 17:59:26,081 - INFO - freezing params: latent.3.attn.qkv_dwconv.weight
+2026-07-09 17:59:26,081 - INFO - freezing params: latent.3.attn.project_out.weight
+2026-07-09 17:59:26,081 - INFO - freezing params: latent.3.norm2.body.weight
+2026-07-09 17:59:26,082 - INFO - freezing params: latent.3.norm2.body.bias
+2026-07-09 17:59:26,082 - INFO - freezing params: latent.3.ffn.project_in.weight
+2026-07-09 17:59:26,082 - INFO - freezing params: latent.3.ffn.dwconv.weight
+2026-07-09 17:59:26,082 - INFO - freezing params: latent.3.ffn.project_out.weight
+2026-07-09 17:59:26,082 - INFO - freezing params: latent.4.norm1.body.weight
+2026-07-09 17:59:26,082 - INFO - freezing params: latent.4.norm1.body.bias
+2026-07-09 17:59:26,082 - INFO - freezing params: latent.4.attn.temperature
+2026-07-09 17:59:26,082 - INFO - freezing params: latent.4.attn.qkv.weight
+2026-07-09 17:59:26,082 - INFO - freezing params: latent.4.attn.qkv_dwconv.weight
+2026-07-09 17:59:26,082 - INFO - freezing params: latent.4.attn.project_out.weight
+2026-07-09 17:59:26,082 - INFO - freezing params: latent.4.norm2.body.weight
+2026-07-09 17:59:26,082 - INFO - freezing params: latent.4.norm2.body.bias
+2026-07-09 17:59:26,083 - INFO - freezing params: latent.4.ffn.project_in.weight
+2026-07-09 17:59:26,083 - INFO - freezing params: latent.4.ffn.dwconv.weight
+2026-07-09 17:59:26,083 - INFO - freezing params: latent.4.ffn.project_out.weight
+2026-07-09 17:59:26,083 - INFO - freezing params: latent.5.norm1.body.weight
+2026-07-09 17:59:26,083 - INFO - freezing params: latent.5.norm1.body.bias
+2026-07-09 17:59:26,083 - INFO - freezing params: latent.5.attn.temperature
+2026-07-09 17:59:26,083 - INFO - freezing params: latent.5.attn.qkv.weight
+2026-07-09 17:59:26,083 - INFO - freezing params: latent.5.attn.qkv_dwconv.weight
+2026-07-09 17:59:26,083 - INFO - freezing params: latent.5.attn.project_out.weight
+2026-07-09 17:59:26,083 - INFO - freezing params: latent.5.norm2.body.weight
+2026-07-09 17:59:26,083 - INFO - freezing params: latent.5.norm2.body.bias
+2026-07-09 17:59:26,083 - INFO - freezing params: latent.5.ffn.project_in.weight
+2026-07-09 17:59:26,083 - INFO - freezing params: latent.5.ffn.dwconv.weight
+2026-07-09 17:59:26,084 - INFO - freezing params: latent.5.ffn.project_out.weight
+2026-07-09 17:59:26,084 - INFO - freezing params: latent.6.norm1.body.weight
+2026-07-09 17:59:26,084 - INFO - freezing params: latent.6.norm1.body.bias
+2026-07-09 17:59:26,084 - INFO - freezing params: latent.6.attn.temperature
+2026-07-09 17:59:26,084 - INFO - freezing params: latent.6.attn.qkv.weight
+2026-07-09 17:59:26,084 - INFO - freezing params: latent.6.attn.qkv_dwconv.weight
+2026-07-09 17:59:26,084 - INFO - freezing params: latent.6.attn.project_out.weight
+2026-07-09 17:59:26,084 - INFO - freezing params: latent.6.norm2.body.weight
+2026-07-09 17:59:26,084 - INFO - freezing params: latent.6.norm2.body.bias
+2026-07-09 17:59:26,084 - INFO - freezing params: latent.6.ffn.project_in.weight
+2026-07-09 17:59:26,084 - INFO - freezing params: latent.6.ffn.dwconv.weight
+2026-07-09 17:59:26,084 - INFO - freezing params: latent.6.ffn.project_out.weight
+2026-07-09 17:59:26,085 - INFO - freezing params: latent.7.norm1.body.weight
+2026-07-09 17:59:26,085 - INFO - freezing params: latent.7.norm1.body.bias
+2026-07-09 17:59:26,085 - INFO - freezing params: latent.7.attn.temperature
+2026-07-09 17:59:26,085 - INFO - freezing params: latent.7.attn.qkv.weight
+2026-07-09 17:59:26,085 - INFO - freezing params: latent.7.attn.qkv_dwconv.weight
+2026-07-09 17:59:26,085 - INFO - freezing params: latent.7.attn.project_out.weight
+2026-07-09 17:59:26,085 - INFO - freezing params: latent.7.norm2.body.weight
+2026-07-09 17:59:26,085 - INFO - freezing params: latent.7.norm2.body.bias
+2026-07-09 17:59:26,085 - INFO - freezing params: latent.7.ffn.project_in.weight
+2026-07-09 17:59:26,085 - INFO - freezing params: latent.7.ffn.dwconv.weight
+2026-07-09 17:59:26,085 - INFO - freezing params: latent.7.ffn.project_out.weight
+2026-07-09 17:59:26,085 - INFO - freezing params: up4_3.body.0.weight
+2026-07-09 17:59:26,085 - INFO - freezing params: reduce_chan_level3.weight
+2026-07-09 17:59:26,086 - INFO - freezing params: noise_level3.norm1.body.weight
+2026-07-09 17:59:26,086 - INFO - freezing params: noise_level3.norm1.body.bias
+2026-07-09 17:59:26,086 - INFO - freezing params: noise_level3.attn.temperature
+2026-07-09 17:59:26,086 - INFO - freezing params: noise_level3.attn.qkv.weight
+2026-07-09 17:59:26,086 - INFO - freezing params: noise_level3.attn.qkv_dwconv.weight
+2026-07-09 17:59:26,086 - INFO - freezing params: noise_level3.attn.project_out.weight
+2026-07-09 17:59:26,086 - INFO - freezing params: noise_level3.norm2.body.weight
+2026-07-09 17:59:26,086 - INFO - freezing params: noise_level3.norm2.body.bias
+2026-07-09 17:59:26,086 - INFO - freezing params: noise_level3.ffn.project_in.weight
+2026-07-09 17:59:26,086 - INFO - freezing params: noise_level3.ffn.dwconv.weight
+2026-07-09 17:59:26,086 - INFO - freezing params: noise_level3.ffn.project_out.weight
+2026-07-09 17:59:26,086 - INFO - freezing params: reduce_noise_level3.weight
+2026-07-09 17:59:26,087 - INFO - train params: decoder_level3.0.norm1.body.weight
+2026-07-09 17:59:26,087 - INFO - train params: decoder_level3.0.norm1.body.bias
+2026-07-09 17:59:26,087 - INFO - train params: decoder_level3.0.attn.temperature
+2026-07-09 17:59:26,087 - INFO - train params: decoder_level3.0.attn.qkv.weight
+2026-07-09 17:59:26,087 - INFO - train params: decoder_level3.0.attn.qkv_dwconv.weight
+2026-07-09 17:59:26,087 - INFO - train params: decoder_level3.0.attn.project_out.weight
+2026-07-09 17:59:26,087 - INFO - train params: decoder_level3.0.norm2.body.weight
+2026-07-09 17:59:26,087 - INFO - train params: decoder_level3.0.norm2.body.bias
+2026-07-09 17:59:26,087 - INFO - train params: decoder_level3.0.ffn.project_in.weight
+2026-07-09 17:59:26,087 - INFO - train params: decoder_level3.0.ffn.dwconv.weight
+2026-07-09 17:59:26,087 - INFO - train params: decoder_level3.0.ffn.project_out.weight
+2026-07-09 17:59:26,088 - INFO - train params: decoder_level3.1.norm1.body.weight
+2026-07-09 17:59:26,088 - INFO - train params: decoder_level3.1.norm1.body.bias
+2026-07-09 17:59:26,088 - INFO - train params: decoder_level3.1.attn.temperature
+2026-07-09 17:59:26,088 - INFO - train params: decoder_level3.1.attn.qkv.weight
+2026-07-09 17:59:26,088 - INFO - train params: decoder_level3.1.attn.qkv_dwconv.weight
+2026-07-09 17:59:26,088 - INFO - train params: decoder_level3.1.attn.project_out.weight
+2026-07-09 17:59:26,088 - INFO - train params: decoder_level3.1.norm2.body.weight
+2026-07-09 17:59:26,088 - INFO - train params: decoder_level3.1.norm2.body.bias
+2026-07-09 17:59:26,088 - INFO - train params: decoder_level3.1.ffn.project_in.weight
+2026-07-09 17:59:26,088 - INFO - train params: decoder_level3.1.ffn.dwconv.weight
+2026-07-09 17:59:26,088 - INFO - train params: decoder_level3.1.ffn.project_out.weight
+2026-07-09 17:59:26,089 - INFO - train params: decoder_level3.2.norm1.body.weight
+2026-07-09 17:59:26,089 - INFO - train params: decoder_level3.2.norm1.body.bias
+2026-07-09 17:59:26,089 - INFO - train params: decoder_level3.2.attn.temperature
+2026-07-09 17:59:26,089 - INFO - train params: decoder_level3.2.attn.qkv.weight
+2026-07-09 17:59:26,089 - INFO - train params: decoder_level3.2.attn.qkv_dwconv.weight
+2026-07-09 17:59:26,089 - INFO - train params: decoder_level3.2.attn.project_out.weight
+2026-07-09 17:59:26,089 - INFO - train params: decoder_level3.2.norm2.body.weight
+2026-07-09 17:59:26,089 - INFO - train params: decoder_level3.2.norm2.body.bias
+2026-07-09 17:59:26,089 - INFO - train params: decoder_level3.2.ffn.project_in.weight
+2026-07-09 17:59:26,089 - INFO - train params: decoder_level3.2.ffn.dwconv.weight
+2026-07-09 17:59:26,089 - INFO - train params: decoder_level3.2.ffn.project_out.weight
+2026-07-09 17:59:26,089 - INFO - train params: decoder_level3.3.norm1.body.weight
+2026-07-09 17:59:26,089 - INFO - train params: decoder_level3.3.norm1.body.bias
+2026-07-09 17:59:26,090 - INFO - train params: decoder_level3.3.attn.temperature
+2026-07-09 17:59:26,090 - INFO - train params: decoder_level3.3.attn.qkv.weight
+2026-07-09 17:59:26,090 - INFO - train params: decoder_level3.3.attn.qkv_dwconv.weight
+2026-07-09 17:59:26,090 - INFO - train params: decoder_level3.3.attn.project_out.weight
+2026-07-09 17:59:26,090 - INFO - train params: decoder_level3.3.norm2.body.weight
+2026-07-09 17:59:26,090 - INFO - train params: decoder_level3.3.norm2.body.bias
+2026-07-09 17:59:26,090 - INFO - train params: decoder_level3.3.ffn.project_in.weight
+2026-07-09 17:59:26,090 - INFO - train params: decoder_level3.3.ffn.dwconv.weight
+2026-07-09 17:59:26,090 - INFO - train params: decoder_level3.3.ffn.project_out.weight
+2026-07-09 17:59:26,090 - INFO - train params: decoder_level3.4.norm1.body.weight
+2026-07-09 17:59:26,090 - INFO - train params: decoder_level3.4.norm1.body.bias
+2026-07-09 17:59:26,090 - INFO - train params: decoder_level3.4.attn.temperature
+2026-07-09 17:59:26,091 - INFO - train params: decoder_level3.4.attn.qkv.weight
+2026-07-09 17:59:26,091 - INFO - train params: decoder_level3.4.attn.qkv_dwconv.weight
+2026-07-09 17:59:26,091 - INFO - train params: decoder_level3.4.attn.project_out.weight
+2026-07-09 17:59:26,091 - INFO - train params: decoder_level3.4.norm2.body.weight
+2026-07-09 17:59:26,091 - INFO - train params: decoder_level3.4.norm2.body.bias
+2026-07-09 17:59:26,091 - INFO - train params: decoder_level3.4.ffn.project_in.weight
+2026-07-09 17:59:26,091 - INFO - train params: decoder_level3.4.ffn.dwconv.weight
+2026-07-09 17:59:26,091 - INFO - train params: decoder_level3.4.ffn.project_out.weight
+2026-07-09 17:59:26,091 - INFO - train params: decoder_level3.5.norm1.body.weight
+2026-07-09 17:59:26,091 - INFO - train params: decoder_level3.5.norm1.body.bias
+2026-07-09 17:59:26,091 - INFO - train params: decoder_level3.5.attn.temperature
+2026-07-09 17:59:26,091 - INFO - train params: decoder_level3.5.attn.qkv.weight
+2026-07-09 17:59:26,092 - INFO - train params: decoder_level3.5.attn.qkv_dwconv.weight
+2026-07-09 17:59:26,092 - INFO - train params: decoder_level3.5.attn.project_out.weight
+2026-07-09 17:59:26,092 - INFO - train params: decoder_level3.5.norm2.body.weight
+2026-07-09 17:59:26,092 - INFO - train params: decoder_level3.5.norm2.body.bias
+2026-07-09 17:59:26,092 - INFO - train params: decoder_level3.5.ffn.project_in.weight
+2026-07-09 17:59:26,092 - INFO - train params: decoder_level3.5.ffn.dwconv.weight
+2026-07-09 17:59:26,092 - INFO - train params: decoder_level3.5.ffn.project_out.weight
+2026-07-09 17:59:26,092 - INFO - freezing params: up3_2.body.0.weight
+2026-07-09 17:59:26,092 - INFO - freezing params: reduce_chan_level2.weight
+2026-07-09 17:59:26,092 - INFO - freezing params: noise_level2.norm1.body.weight
+2026-07-09 17:59:26,092 - INFO - freezing params: noise_level2.norm1.body.bias
+2026-07-09 17:59:26,092 - INFO - freezing params: noise_level2.attn.temperature
+2026-07-09 17:59:26,093 - INFO - freezing params: noise_level2.attn.qkv.weight
+2026-07-09 17:59:26,093 - INFO - freezing params: noise_level2.attn.qkv_dwconv.weight
+2026-07-09 17:59:26,093 - INFO - freezing params: noise_level2.attn.project_out.weight
+2026-07-09 17:59:26,093 - INFO - freezing params: noise_level2.norm2.body.weight
+2026-07-09 17:59:26,093 - INFO - freezing params: noise_level2.norm2.body.bias
+2026-07-09 17:59:26,093 - INFO - freezing params: noise_level2.ffn.project_in.weight
+2026-07-09 17:59:26,093 - INFO - freezing params: noise_level2.ffn.dwconv.weight
+2026-07-09 17:59:26,093 - INFO - freezing params: noise_level2.ffn.project_out.weight
+2026-07-09 17:59:26,093 - INFO - freezing params: reduce_noise_level2.weight
+2026-07-09 17:59:26,093 - INFO - train params: decoder_level2.0.norm1.body.weight
+2026-07-09 17:59:26,093 - INFO - train params: decoder_level2.0.norm1.body.bias
+2026-07-09 17:59:26,093 - INFO - train params: decoder_level2.0.attn.temperature
+2026-07-09 17:59:26,094 - INFO - train params: decoder_level2.0.attn.qkv.weight
+2026-07-09 17:59:26,094 - INFO - train params: decoder_level2.0.attn.qkv_dwconv.weight
+2026-07-09 17:59:26,094 - INFO - train params: decoder_level2.0.attn.project_out.weight
+2026-07-09 17:59:26,094 - INFO - train params: decoder_level2.0.norm2.body.weight
+2026-07-09 17:59:26,094 - INFO - train params: decoder_level2.0.norm2.body.bias
+2026-07-09 17:59:26,094 - INFO - train params: decoder_level2.0.ffn.project_in.weight
+2026-07-09 17:59:26,094 - INFO - train params: decoder_level2.0.ffn.dwconv.weight
+2026-07-09 17:59:26,094 - INFO - train params: decoder_level2.0.ffn.project_out.weight
+2026-07-09 17:59:26,094 - INFO - train params: decoder_level2.1.norm1.body.weight
+2026-07-09 17:59:26,094 - INFO - train params: decoder_level2.1.norm1.body.bias
+2026-07-09 17:59:26,094 - INFO - train params: decoder_level2.1.attn.temperature
+2026-07-09 17:59:26,094 - INFO - train params: decoder_level2.1.attn.qkv.weight
+2026-07-09 17:59:26,094 - INFO - train params: decoder_level2.1.attn.qkv_dwconv.weight
+2026-07-09 17:59:26,095 - INFO - train params: decoder_level2.1.attn.project_out.weight
+2026-07-09 17:59:26,095 - INFO - train params: decoder_level2.1.norm2.body.weight
+2026-07-09 17:59:26,095 - INFO - train params: decoder_level2.1.norm2.body.bias
+2026-07-09 17:59:26,095 - INFO - train params: decoder_level2.1.ffn.project_in.weight
+2026-07-09 17:59:26,095 - INFO - train params: decoder_level2.1.ffn.dwconv.weight
+2026-07-09 17:59:26,095 - INFO - train params: decoder_level2.1.ffn.project_out.weight
+2026-07-09 17:59:26,095 - INFO - train params: decoder_level2.2.norm1.body.weight
+2026-07-09 17:59:26,095 - INFO - train params: decoder_level2.2.norm1.body.bias
+2026-07-09 17:59:26,095 - INFO - train params: decoder_level2.2.attn.temperature
+2026-07-09 17:59:26,095 - INFO - train params: decoder_level2.2.attn.qkv.weight
+2026-07-09 17:59:26,095 - INFO - train params: decoder_level2.2.attn.qkv_dwconv.weight
+2026-07-09 17:59:26,095 - INFO - train params: decoder_level2.2.attn.project_out.weight
+2026-07-09 17:59:26,096 - INFO - train params: decoder_level2.2.norm2.body.weight
+2026-07-09 17:59:26,096 - INFO - train params: decoder_level2.2.norm2.body.bias
+2026-07-09 17:59:26,096 - INFO - train params: decoder_level2.2.ffn.project_in.weight
+2026-07-09 17:59:26,096 - INFO - train params: decoder_level2.2.ffn.dwconv.weight
+2026-07-09 17:59:26,096 - INFO - train params: decoder_level2.2.ffn.project_out.weight
+2026-07-09 17:59:26,096 - INFO - train params: decoder_level2.3.norm1.body.weight
+2026-07-09 17:59:26,096 - INFO - train params: decoder_level2.3.norm1.body.bias
+2026-07-09 17:59:26,096 - INFO - train params: decoder_level2.3.attn.temperature
+2026-07-09 17:59:26,096 - INFO - train params: decoder_level2.3.attn.qkv.weight
+2026-07-09 17:59:26,096 - INFO - train params: decoder_level2.3.attn.qkv_dwconv.weight
+2026-07-09 17:59:26,096 - INFO - train params: decoder_level2.3.attn.project_out.weight
+2026-07-09 17:59:26,096 - INFO - train params: decoder_level2.3.norm2.body.weight
+2026-07-09 17:59:26,096 - INFO - train params: decoder_level2.3.norm2.body.bias
+2026-07-09 17:59:26,097 - INFO - train params: decoder_level2.3.ffn.project_in.weight
+2026-07-09 17:59:26,097 - INFO - train params: decoder_level2.3.ffn.dwconv.weight
+2026-07-09 17:59:26,097 - INFO - train params: decoder_level2.3.ffn.project_out.weight
+2026-07-09 17:59:26,097 - INFO - train params: decoder_level2.4.norm1.body.weight
+2026-07-09 17:59:26,097 - INFO - train params: decoder_level2.4.norm1.body.bias
+2026-07-09 17:59:26,097 - INFO - train params: decoder_level2.4.attn.temperature
+2026-07-09 17:59:26,097 - INFO - train params: decoder_level2.4.attn.qkv.weight
+2026-07-09 17:59:26,097 - INFO - train params: decoder_level2.4.attn.qkv_dwconv.weight
+2026-07-09 17:59:26,097 - INFO - train params: decoder_level2.4.attn.project_out.weight
+2026-07-09 17:59:26,097 - INFO - train params: decoder_level2.4.norm2.body.weight
+2026-07-09 17:59:26,097 - INFO - train params: decoder_level2.4.norm2.body.bias
+2026-07-09 17:59:26,097 - INFO - train params: decoder_level2.4.ffn.project_in.weight
+2026-07-09 17:59:26,098 - INFO - train params: decoder_level2.4.ffn.dwconv.weight
+2026-07-09 17:59:26,098 - INFO - train params: decoder_level2.4.ffn.project_out.weight
+2026-07-09 17:59:26,098 - INFO - train params: decoder_level2.5.norm1.body.weight
+2026-07-09 17:59:26,098 - INFO - train params: decoder_level2.5.norm1.body.bias
+2026-07-09 17:59:26,098 - INFO - train params: decoder_level2.5.attn.temperature
+2026-07-09 17:59:26,098 - INFO - train params: decoder_level2.5.attn.qkv.weight
+2026-07-09 17:59:26,098 - INFO - train params: decoder_level2.5.attn.qkv_dwconv.weight
+2026-07-09 17:59:26,098 - INFO - train params: decoder_level2.5.attn.project_out.weight
+2026-07-09 17:59:26,098 - INFO - train params: decoder_level2.5.norm2.body.weight
+2026-07-09 17:59:26,098 - INFO - train params: decoder_level2.5.norm2.body.bias
+2026-07-09 17:59:26,098 - INFO - train params: decoder_level2.5.ffn.project_in.weight
+2026-07-09 17:59:26,098 - INFO - train params: decoder_level2.5.ffn.dwconv.weight
+2026-07-09 17:59:26,098 - INFO - train params: decoder_level2.5.ffn.project_out.weight
+2026-07-09 17:59:26,099 - INFO - freezing params: up2_1.body.0.weight
+2026-07-09 17:59:26,099 - INFO - freezing params: noise_level1.norm1.body.weight
+2026-07-09 17:59:26,099 - INFO - freezing params: noise_level1.norm1.body.bias
+2026-07-09 17:59:26,099 - INFO - freezing params: noise_level1.attn.temperature
+2026-07-09 17:59:26,099 - INFO - freezing params: noise_level1.attn.qkv.weight
+2026-07-09 17:59:26,099 - INFO - freezing params: noise_level1.attn.qkv_dwconv.weight
+2026-07-09 17:59:26,099 - INFO - freezing params: noise_level1.attn.project_out.weight
+2026-07-09 17:59:26,099 - INFO - freezing params: noise_level1.norm2.body.weight
+2026-07-09 17:59:26,099 - INFO - freezing params: noise_level1.norm2.body.bias
+2026-07-09 17:59:26,099 - INFO - freezing params: noise_level1.ffn.project_in.weight
+2026-07-09 17:59:26,099 - INFO - freezing params: noise_level1.ffn.dwconv.weight
+2026-07-09 17:59:26,099 - INFO - freezing params: noise_level1.ffn.project_out.weight
+2026-07-09 17:59:26,100 - INFO - freezing params: reduce_noise_level1.weight
+2026-07-09 17:59:26,100 - INFO - train params: decoder_level1.0.norm1.body.weight
+2026-07-09 17:59:26,100 - INFO - train params: decoder_level1.0.norm1.body.bias
+2026-07-09 17:59:26,100 - INFO - train params: decoder_level1.0.attn.temperature
+2026-07-09 17:59:26,100 - INFO - train params: decoder_level1.0.attn.qkv.weight
+2026-07-09 17:59:26,100 - INFO - train params: decoder_level1.0.attn.qkv_dwconv.weight
+2026-07-09 17:59:26,100 - INFO - train params: decoder_level1.0.attn.project_out.weight
+2026-07-09 17:59:26,100 - INFO - train params: decoder_level1.0.norm2.body.weight
+2026-07-09 17:59:26,100 - INFO - train params: decoder_level1.0.norm2.body.bias
+2026-07-09 17:59:26,100 - INFO - train params: decoder_level1.0.ffn.project_in.weight
+2026-07-09 17:59:26,100 - INFO - train params: decoder_level1.0.ffn.dwconv.weight
+2026-07-09 17:59:26,100 - INFO - train params: decoder_level1.0.ffn.project_out.weight
+2026-07-09 17:59:26,101 - INFO - train params: decoder_level1.1.norm1.body.weight
+2026-07-09 17:59:26,101 - INFO - train params: decoder_level1.1.norm1.body.bias
+2026-07-09 17:59:26,101 - INFO - train params: decoder_level1.1.attn.temperature
+2026-07-09 17:59:26,101 - INFO - train params: decoder_level1.1.attn.qkv.weight
+2026-07-09 17:59:26,101 - INFO - train params: decoder_level1.1.attn.qkv_dwconv.weight
+2026-07-09 17:59:26,101 - INFO - train params: decoder_level1.1.attn.project_out.weight
+2026-07-09 17:59:26,101 - INFO - train params: decoder_level1.1.norm2.body.weight
+2026-07-09 17:59:26,101 - INFO - train params: decoder_level1.1.norm2.body.bias
+2026-07-09 17:59:26,101 - INFO - train params: decoder_level1.1.ffn.project_in.weight
+2026-07-09 17:59:26,101 - INFO - train params: decoder_level1.1.ffn.dwconv.weight
+2026-07-09 17:59:26,101 - INFO - train params: decoder_level1.1.ffn.project_out.weight
+2026-07-09 17:59:26,101 - INFO - train params: decoder_level1.2.norm1.body.weight
+2026-07-09 17:59:26,101 - INFO - train params: decoder_level1.2.norm1.body.bias
+2026-07-09 17:59:26,102 - INFO - train params: decoder_level1.2.attn.temperature
+2026-07-09 17:59:26,102 - INFO - train params: decoder_level1.2.attn.qkv.weight
+2026-07-09 17:59:26,102 - INFO - train params: decoder_level1.2.attn.qkv_dwconv.weight
+2026-07-09 17:59:26,102 - INFO - train params: decoder_level1.2.attn.project_out.weight
+2026-07-09 17:59:26,102 - INFO - train params: decoder_level1.2.norm2.body.weight
+2026-07-09 17:59:26,102 - INFO - train params: decoder_level1.2.norm2.body.bias
+2026-07-09 17:59:26,102 - INFO - train params: decoder_level1.2.ffn.project_in.weight
+2026-07-09 17:59:26,102 - INFO - train params: decoder_level1.2.ffn.dwconv.weight
+2026-07-09 17:59:26,102 - INFO - train params: decoder_level1.2.ffn.project_out.weight
+2026-07-09 17:59:26,102 - INFO - train params: decoder_level1.3.norm1.body.weight
+2026-07-09 17:59:26,102 - INFO - train params: decoder_level1.3.norm1.body.bias
+2026-07-09 17:59:26,102 - INFO - train params: decoder_level1.3.attn.temperature
+2026-07-09 17:59:26,103 - INFO - train params: decoder_level1.3.attn.qkv.weight
+2026-07-09 17:59:26,103 - INFO - train params: decoder_level1.3.attn.qkv_dwconv.weight
+2026-07-09 17:59:26,103 - INFO - train params: decoder_level1.3.attn.project_out.weight
+2026-07-09 17:59:26,103 - INFO - train params: decoder_level1.3.norm2.body.weight
+2026-07-09 17:59:26,103 - INFO - train params: decoder_level1.3.norm2.body.bias
+2026-07-09 17:59:26,103 - INFO - train params: decoder_level1.3.ffn.project_in.weight
+2026-07-09 17:59:26,103 - INFO - train params: decoder_level1.3.ffn.dwconv.weight
+2026-07-09 17:59:26,103 - INFO - train params: decoder_level1.3.ffn.project_out.weight
+2026-07-09 17:59:26,103 - INFO - freezing params: refinement.0.norm1.body.weight
+2026-07-09 17:59:26,103 - INFO - freezing params: refinement.0.norm1.body.bias
+2026-07-09 17:59:26,103 - INFO - freezing params: refinement.0.attn.temperature
+2026-07-09 17:59:26,103 - INFO - freezing params: refinement.0.attn.qkv.weight
+2026-07-09 17:59:26,103 - INFO - freezing params: refinement.0.attn.qkv_dwconv.weight
+2026-07-09 17:59:26,104 - INFO - freezing params: refinement.0.attn.project_out.weight
+2026-07-09 17:59:26,104 - INFO - freezing params: refinement.0.norm2.body.weight
+2026-07-09 17:59:26,104 - INFO - freezing params: refinement.0.norm2.body.bias
+2026-07-09 17:59:26,104 - INFO - freezing params: refinement.0.ffn.project_in.weight
+2026-07-09 17:59:26,104 - INFO - freezing params: refinement.0.ffn.dwconv.weight
+2026-07-09 17:59:26,104 - INFO - freezing params: refinement.0.ffn.project_out.weight
+2026-07-09 17:59:26,104 - INFO - freezing params: refinement.1.norm1.body.weight
+2026-07-09 17:59:26,104 - INFO - freezing params: refinement.1.norm1.body.bias
+2026-07-09 17:59:26,104 - INFO - freezing params: refinement.1.attn.temperature
+2026-07-09 17:59:26,104 - INFO - freezing params: refinement.1.attn.qkv.weight
+2026-07-09 17:59:26,104 - INFO - freezing params: refinement.1.attn.qkv_dwconv.weight
+2026-07-09 17:59:26,104 - INFO - freezing params: refinement.1.attn.project_out.weight
+2026-07-09 17:59:26,104 - INFO - freezing params: refinement.1.norm2.body.weight
+2026-07-09 17:59:26,105 - INFO - freezing params: refinement.1.norm2.body.bias
+2026-07-09 17:59:26,105 - INFO - freezing params: refinement.1.ffn.project_in.weight
+2026-07-09 17:59:26,105 - INFO - freezing params: refinement.1.ffn.dwconv.weight
+2026-07-09 17:59:26,105 - INFO - freezing params: refinement.1.ffn.project_out.weight
+2026-07-09 17:59:26,105 - INFO - freezing params: refinement.2.norm1.body.weight
+2026-07-09 17:59:26,105 - INFO - freezing params: refinement.2.norm1.body.bias
+2026-07-09 17:59:26,105 - INFO - freezing params: refinement.2.attn.temperature
+2026-07-09 17:59:26,105 - INFO - freezing params: refinement.2.attn.qkv.weight
+2026-07-09 17:59:26,105 - INFO - freezing params: refinement.2.attn.qkv_dwconv.weight
+2026-07-09 17:59:26,105 - INFO - freezing params: refinement.2.attn.project_out.weight
+2026-07-09 17:59:26,105 - INFO - freezing params: refinement.2.norm2.body.weight
+2026-07-09 17:59:26,105 - INFO - freezing params: refinement.2.norm2.body.bias
+2026-07-09 17:59:26,105 - INFO - freezing params: refinement.2.ffn.project_in.weight
+2026-07-09 17:59:26,106 - INFO - freezing params: refinement.2.ffn.dwconv.weight
+2026-07-09 17:59:26,106 - INFO - freezing params: refinement.2.ffn.project_out.weight
+2026-07-09 17:59:26,106 - INFO - freezing params: refinement.3.norm1.body.weight
+2026-07-09 17:59:26,106 - INFO - freezing params: refinement.3.norm1.body.bias
+2026-07-09 17:59:26,106 - INFO - freezing params: refinement.3.attn.temperature
+2026-07-09 17:59:26,106 - INFO - freezing params: refinement.3.attn.qkv.weight
+2026-07-09 17:59:26,106 - INFO - freezing params: refinement.3.attn.qkv_dwconv.weight
+2026-07-09 17:59:26,106 - INFO - freezing params: refinement.3.attn.project_out.weight
+2026-07-09 17:59:26,106 - INFO - freezing params: refinement.3.norm2.body.weight
+2026-07-09 17:59:26,106 - INFO - freezing params: refinement.3.norm2.body.bias
+2026-07-09 17:59:26,106 - INFO - freezing params: refinement.3.ffn.project_in.weight
+2026-07-09 17:59:26,106 - INFO - freezing params: refinement.3.ffn.dwconv.weight
+2026-07-09 17:59:26,107 - INFO - freezing params: refinement.3.ffn.project_out.weight
+2026-07-09 17:59:26,107 - INFO - freezing params: output.weight
+2026-07-09 17:59:26,221 - INFO - -------------保存模型--------------
+2026-07-09 17:59:26,221 - INFO - -------------开始推理与评估--------------
+2026-07-09 17:59:26,221 - INFO - 测试集大小: 100
+2026-07-09 17:59:52,246 - INFO - 平均PSNR: 15.550, 平均SSIM: 0.4868
+2026-07-09 17:59:52,246 - INFO - -------------推理完成，结果已保存--------------
+2026-07-09 17:59:52,246 - INFO - -------------TTA完成--------------
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            2026-07-09 17:59:34,772 - INFO - loss_s:0.0837213546037674,loss_t:0.3724059462547302
+2026-07-09 17:59:35,176 - INFO - 28
+2026-07-09 17:59:47,304 - INFO - loss_s:0.15636810660362244,loss_t:0.7471180558204651
+2026-07-09 17:59:47,686 - INFO - 29
+2026-07-09 17:59:59,710 - INFO - loss_s:0.1120019480586052,loss_t:0.5905606150627136
+2026-07-09 18:00:00,122 - INFO - 30
+2026-07-09 18:00:12,423 - INFO - loss_s:0.2132127434015274,loss_t:0.7943263649940491
+2026-07-09 18:00:12,809 - INFO - 31
+2026-07-09 18:00:24,429 - INFO - loss_s:0.15304943919181824,loss_t:0.7120940685272217
+2026-07-09 18:00:24,826 - INFO - 32
+2026-07-09 18:00:36,805 - INFO - loss_s:0.1091417446732521,loss_t:0.4442647397518158
+2026-07-09 18:00:37,224 - INFO - 33
+2026-07-09 18:00:48,791 - INFO - loss_s:0.07845719903707504,loss_t:0.39353835582733154
+2026-07-09 18:00:49,177 - INFO - 34
+2026-07-09 18:01:00,691 - INFO - loss_s:0.06990845501422882,loss_t:0.36479824781417847
+2026-07-09 18:01:01,092 - INFO - 35
+2026-07-09 18:01:13,165 - INFO - loss_s:0.1139889732003212,loss_t:0.48394709825515747
+2026-07-09 18:01:13,574 - INFO - 36
+2026-07-09 18:01:24,924 - INFO - loss_s:0.21542350947856903,loss_t:0.8754724264144897
+2026-07-09 18:01:25,327 - INFO - 37
+2026-07-09 18:01:37,351 - INFO - loss_s:0.08721491694450378,loss_t:0.5148202776908875
+2026-07-09 18:01:37,746 - INFO - 38
+2026-07-09 18:01:49,458 - INFO - loss_s:0.09728409349918365,loss_t:0.4823349714279175
+2026-07-09 18:01:49,852 - INFO - 39
+2026-07-09 18:02:01,908 - INFO - loss_s:0.12436607480049133,loss_t:0.5452365279197693
+2026-07-09 18:02:02,300 - INFO - 40
+2026-07-09 18:02:14,153 - INFO - loss_s:0.10035210102796555,loss_t:0.5013337731361389
+2026-07-09 18:02:14,555 - INFO - 41
+2026-07-09 18:02:26,103 - INFO - loss_s:0.10183517634868622,loss_t:0.5785579681396484
+2026-07-09 18:02:26,510 - INFO - 42
+2026-07-09 18:02:38,241 - INFO - loss_s:0.13119202852249146,loss_t:0.6398565173149109
+2026-07-09 18:02:38,624 - INFO - 43
+2026-07-09 18:02:50,065 - INFO - loss_s:0.1122845858335495,loss_t:0.481792151927948
+2026-07-09 18:02:50,467 - INFO - 44
+2026-07-09 18:03:02,245 - INFO - loss_s:0.13890725374221802,loss_t:0.6485772132873535
+2026-07-09 18:03:02,661 - INFO - 45
+2026-07-09 18:03:14,324 - INFO - loss_s:0.07317186892032623,loss_t:0.4161624312400818
+2026-07-09 18:03:14,736 - INFO - 46
+2026-07-09 18:03:26,528 - INFO - loss_s:0.09263428300619125,loss_t:0.443327397108078
+2026-07-09 18:03:26,942 - INFO - 47
+2026-07-09 18:03:38,182 - INFO - loss_s:0.1368773877620697,loss_t:0.5401453971862793
+2026-07-09 18:03:38,533 - INFO - 48
+2026-07-09 18:03:49,182 - INFO - loss_s:0.10152316093444824,loss_t:0.4850175678730011
+2026-07-09 18:03:49,527 - INFO - 49
+2026-07-09 18:03:59,972 - INFO - loss_s:0.10507842898368835,loss_t:0.47316300868988037
+2026-07-09 18:04:00,320 - INFO - 50
+2026-07-09 18:04:10,982 - INFO - loss_s:0.08965146541595459,loss_t:0.38057202100753784
+2026-07-09 18:04:11,339 - INFO - 51
+2026-07-09 18:04:22,153 - INFO - loss_s:0.11677979677915573,loss_t:0.5269852876663208
+2026-07-09 18:04:22,504 - INFO - 52
+2026-07-09 18:04:33,118 - INFO - loss_s:0.11558044701814651,loss_t:0.583461344242096
+2026-07-09 18:04:33,465 - INFO - 53
+2026-07-09 18:04:44,331 - INFO - loss_s:0.08571752905845642,loss_t:0.4873077869415283
+2026-07-09 18:04:44,678 - INFO - 54
+2026-07-09 18:04:55,277 - INFO - loss_s:0.0963749885559082,loss_t:0.4852577745914459
+2026-07-09 18:04:55,628 - INFO - 55
+2026-07-09 18:05:06,329 - INFO - loss_s:0.1303095668554306,loss_t:0.48737818002700806
+2026-07-09 18:05:06,676 - INFO - 56
+2026-07-09 18:05:17,032 - INFO - loss_s:0.1304333359003067,loss_t:0.427622526884079
+2026-07-09 18:05:17,386 - INFO - 57
+2026-07-09 18:05:27,907 - INFO - loss_s:0.08526837080717087,loss_t:0.4220445454120636
+2026-07-09 18:05:28,257 - INFO - 58
+2026-07-09 18:05:39,231 - INFO - loss_s:0.09166542440652847,loss_t:0.44604673981666565
+2026-07-09 18:05:39,591 - INFO - 59
+2026-07-09 18:05:50,296 - INFO - loss_s:0.11922639608383179,loss_t:0.5166786313056946
+2026-07-09 18:05:50,647 - INFO - 60
+2026-07-09 18:06:01,386 - INFO - loss_s:0.11587889492511749,loss_t:0.5321125984191895
+2026-07-09 18:06:01,743 - INFO - 61
+2026-07-09 18:06:11,935 - INFO - loss_s:0.0638970136642456,loss_t:0.307650089263916
+2026-07-09 18:06:12,279 - INFO - 62
+2026-07-09 18:06:22,781 - INFO - loss_s:0.0844547376036644,loss_t:0.40607526898384094
+2026-07-09 18:06:23,136 - INFO - 63
+2026-07-09 18:06:33,787 - INFO - loss_s:0.09525378793478012,loss_t:0.46887069940567017
+2026-07-09 18:06:34,137 - INFO - 64
+2026-07-09 18:06:44,691 - INFO - loss_s:0.10047595947980881,loss_t:0.504940390586853
+2026-07-09 18:06:45,053 - INFO - 65
+2026-07-09 18:06:56,047 - INFO - loss_s:0.12357360124588013,loss_t:0.5308497548103333
+2026-07-09 18:06:56,394 - INFO - 66
+2026-07-09 18:07:07,186 - INFO - loss_s:0.11230135709047318,loss_t:0.4999447166919708
+2026-07-09 18:07:07,541 - INFO - 67
+2026-07-09 18:07:18,189 - INFO - loss_s:0.12092196941375732,loss_t:0.3720148801803589
+2026-07-09 18:07:18,540 - INFO - 68
+2026-07-09 18:07:29,188 - INFO - loss_s:0.1148841381072998,loss_t:0.3895605206489563
+2026-07-09 18:07:29,536 - INFO - 69
+2026-07-09 18:07:40,152 - INFO - loss_s:0.08906196057796478,loss_t:0.4250851273536682
+2026-07-09 18:07:40,501 - INFO - 70
+2026-07-09 18:07:51,164 - INFO - loss_s:0.08771394938230515,loss_t:0.4272215962409973
+2026-07-09 18:07:51,511 - INFO - 71
+2026-07-09 18:08:02,095 - INFO - loss_s:0.0834682285785675,loss_t:0.3931148648262024
+2026-07-09 18:08:02,441 - INFO - 72
+2026-07-09 18:08:13,059 - INFO - loss_s:0.11631951481103897,loss_t:0.575472354888916
+2026-07-09 18:08:13,400 - INFO - 73
+2026-07-09 18:08:24,019 - INFO - loss_s:0.0892580971121788,loss_t:0.5916897654533386
+2026-07-09 18:08:24,365 - INFO - 74
+2026-07-09 18:08:35,396 - INFO - loss_s:0.09690353274345398,loss_t:0.4302832782268524
+2026-07-09 18:08:35,743 - INFO - 75
+2026-07-09 18:08:46,422 - INFO - loss_s:0.10839800536632538,loss_t:0.45156168937683105
+2026-07-09 18:08:46,771 - INFO - 76
+2026-07-09 18:08:57,135 - INFO - loss_s:0.11088639497756958,loss_t:0.42998456954956055
+2026-07-09 18:08:57,489 - INFO - 77
+2026-07-09 18:09:08,026 - INFO - loss_s:0.099882572889328,loss_t:0.522999107837677
+2026-07-09 18:09:08,377 - INFO - 78
+2026-07-09 18:09:19,227 - INFO - loss_s:0.12656337022781372,loss_t:0.6194394826889038
+2026-07-09 18:09:19,574 - INFO - 79
+2026-07-09 18:09:30,138 - INFO - loss_s:0.07333798706531525,loss_t:0.3220379948616028
+2026-07-09 18:09:30,483 - INFO - 80
+2026-07-09 18:09:41,057 - INFO - loss_s:0.10868411511182785,loss_t:0.4478558897972107
+2026-07-09 18:09:41,404 - INFO - 81
+2026-07-09 18:09:52,250 - INFO - loss_s:0.11186914891004562,loss_t:0.5522586107254028
+2026-07-09 18:09:52,600 - INFO - 82
+2026-07-09 18:10:03,049 - INFO - loss_s:0.11087857186794281,loss_t:0.42484426498413086
+2026-07-09 18:10:03,400 - INFO - 83
+2026-07-09 18:10:14,045 - INFO - loss_s:0.10482122004032135,loss_t:0.47556430101394653
+2026-07-09 18:10:14,388 - INFO - 84
+2026-07-09 18:10:24,970 - INFO - loss_s:0.10736817121505737,loss_t:0.4331297278404236
+2026-07-09 18:10:25,334 - INFO - 85
+2026-07-09 18:10:36,266 - INFO - loss_s:0.11548851430416107,loss_t:0.4668671190738678
+2026-07-09 18:10:36,633 - INFO - 86
+2026-07-09 18:10:47,055 - INFO - loss_s:0.12001913040876389,loss_t:0.3806411921977997
+2026-07-09 18:10:47,394 - INFO - 87
+2026-07-09 18:10:57,995 - INFO - loss_s:0.10002776235342026,loss_t:0.4260615110397339
+2026-07-09 18:10:58,343 - INFO - 88
+2026-07-09 18:11:08,985 - INFO - loss_s:0.13925138115882874,loss_t:0.388416051864624
+2026-07-09 18:11:09,328 - INFO - 89
+2026-07-09 18:11:19,611 - INFO - loss_s:0.09548845887184143,loss_t:0.4064187705516815
+2026-07-09 18:11:19,950 - INFO - 90
+2026-07-09 18:11:30,500 - INFO - loss_s:0.06639356911182404,loss_t:0.26866045594215393
+2026-07-09 18:11:30,851 - INFO - 91
+2026-07-09 18:11:41,362 - INFO - loss_s:0.12148348242044449,loss_t:0.40193799138069153
+2026-07-09 18:11:41,721 - INFO - 92
+2026-07-09 18:11:52,137 - INFO - loss_s:0.11170759052038193,loss_t:0.5083685517311096
+2026-07-09 18:11:52,488 - INFO - 93
+2026-07-09 18:12:03,315 - INFO - loss_s:0.10211214423179626,loss_t:0.4883142113685608
+2026-07-09 18:12:03,663 - INFO - 94
+2026-07-09 18:12:14,249 - INFO - loss_s:0.09333063662052155,loss_t:0.4419690668582916
+2026-07-09 18:12:14,604 - INFO - 95
+2026-07-09 18:12:25,243 - INFO - loss_s:0.1022593080997467,loss_t:0.4207896888256073
+2026-07-09 18:12:25,583 - INFO - 96
+2026-07-09 18:12:36,042 - INFO - loss_s:0.11710719019174576,loss_t:0.3933258354663849
+2026-07-09 18:12:36,389 - INFO - 97
+2026-07-09 18:12:46,714 - INFO - loss_s:0.09752576798200607,loss_t:0.3868989944458008
+2026-07-09 18:12:47,060 - INFO - 98
+2026-07-09 18:12:57,515 - INFO - loss_s:0.09425466507673264,loss_t:0.4397464990615845
+2026-07-09 18:12:57,864 - INFO - 99
+2026-07-09 18:13:08,392 - INFO - loss_s:0.08627752214670181,loss_t:0.3768785297870636
+2026-07-09 18:13:08,741 - INFO - -------------保存模型--------------
+2026-07-09 18:13:08,741 - INFO - -------------开始推理与评估--------------
+2026-07-09 18:13:08,742 - INFO - 测试集大小: 100
+2026-07-09 18:13:33,495 - INFO - 平均PSNR: 21.269, 平均SSIM: 0.6179
+2026-07-09 18:13:33,495 - INFO - -------------推理完成，结果已保存--------------
+2026-07-09 18:13:33,495 - INFO - -------------TTA完成--------------
