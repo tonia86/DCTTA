@@ -14,7 +14,7 @@ Given a pre-trained all-in-one restoration model, our method performs degradatio
 
 The overall framework of our method is illustrated below:
 
-![Framework](https://github.com/tonia86/DOD/blob/main/image/frame.jpg)  
+![Framework](https://github.com/tonia86/DCTTA/blob/main/images/framework.png)  
 ---
 
 ## Environment Setup
@@ -29,7 +29,11 @@ pip install -r requirements.txt
 
 ## Pre-trained Models
 
-The pre-trained weights are provided in the `pretrain/` folder.
+The pre-trained models can be downloaded from the following link:
+
+- [Google Drive](https://drive.google.com/drive/folders/1pTDAtMMPIdsGIAvQc0nr5tJs8qOYIpZ4?usp=sharing)
+
+After downloading, please place the checkpoint files into the `pretrain/` folder:
 
 ```bash
 pretrain/
@@ -68,6 +72,10 @@ After the test-time adaptation process is completed, the adapted model will be a
 
 ---
 
+
+### Some Results
+
+![motion-blur-SR](https://github.com/tonia86/DCTTA/blob/main/images/result_3task.png)
 
 ## Citation
 
